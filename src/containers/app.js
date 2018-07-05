@@ -30,8 +30,7 @@ class App extends Component {
   render() {
     const renderVideoList = () => {
       if (this.state.movieList.length >= 5) {
-        <VideoList movieList={this.state.movieList} />;
-        console.log(this.state.movieList);
+        return <VideoList movieList={this.state.movieList} />;
       }
     };
     return (
