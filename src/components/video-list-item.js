@@ -23,7 +23,6 @@ const VideoListItem = props => {
 
   function handleOnClick() {
     props.callback(movie);
-
   }
 };
 
